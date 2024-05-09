@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
     const [users, setusers] = useState([]);
 
@@ -39,7 +40,10 @@ const Home = () => {
                                     <td>{user.username}</td>
                                     <td>{user.email}</td>
                                     <td>
-                                        <Link></Link>
+                                        <Link className='btn btn-primary mr-2'>View</Link>
+                                        <Link className='btn btn-outline-primary mr-2'>Edit</Link>
+                                        <Link className='btn btn-danger'>Delete</Link>
+
                                     </td>
                                 </tr>
 
