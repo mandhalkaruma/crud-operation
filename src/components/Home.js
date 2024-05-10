@@ -40,8 +40,8 @@ const Home = () => {
                                     <td>{user.username}</td>
                                     <td>{user.email}</td>
                                     <td>
-                                        <Link className='btn btn-primary mr-2'>View</Link>
-                                        <Link className='btn btn-outline-primary mr-2'>Edit</Link>
+                                        <Link className='btn btn-primary mx-2'>View</Link>
+                                        <Link className='btn btn-outline-primary mx-2'>Edit</Link>
                                         <Link className='btn btn-danger'>Delete</Link>
 
                                     </td>
